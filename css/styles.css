@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 845px;
+    background-image: url(../images/hd-bg.jpg)
+}
+
+.menu{
+    margin: auto;
+    width: 960px;
+    clear: both;
+    overflow: hidden;
+}
+.menu__pingbuller {
+    float: left;
+}
+
+.menu__list{
+    list-style-type: none;
+    float: right;
+}
+.menu__list li{
+    float: left;
+}
+.menu__list a{
+    text-decoration: none;
+}
+.article1{
+    height: 340px;
+    background: linear-gradient(to top, #33253a, #745083);
+}
+
+.article2 {
+    height: 605px;
+    background-color: white;
+}
+
+.article3{
+    height: 400px;
+    background-color: #ececec;
+}
+
+footer {
+    height: 113px;
+    background-image: url(../images/ft-bg.jpg);
+}
