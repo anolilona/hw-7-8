@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "LeagueGothicRegular";
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 header {
     height: 845px;
     background-image: url(../images/hd-bg.jpg)
@@ -21,12 +31,15 @@ header {
 .menu__list{
     list-style-type: none;
     float: right;
+    font-family: leaguegothicregular;
+    text-transform: uppercase;
 }
 .menu__list li{
     float: left;
 }
 .menu__list a{
     text-decoration: none;
+    color: white;
 }
 .article1{
     height: 340px;
