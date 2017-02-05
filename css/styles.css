@@ -21,31 +21,115 @@ header {
 .menu{
     margin: auto;
     width: 960px;
-    clear: both;
     overflow: hidden;
 }
 .menu__pingbuller {
     float: left;
+    font-family: leaguegothicregular;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: white;
+}
+.menu__er {
+    background: linear-gradient(to top, #33263a, #745083);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .menu__list{
     list-style-type: none;
     float: right;
-    font-family: leaguegothicregular;
+    font-family: leaguegothicregular, sans-serif;
     text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 24px;
 }
 .menu__list li{
     float: left;
+    margin-left: 50px;
 }
 .menu__list a{
     text-decoration: none;
     color: white;
 }
+.menu__presentation {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+.menu__wrapper {
+    margin: auto;
+    width: 960px;
+}
+.menu__column {
+    width: 50%;
+    float: left;
+}
+.menu__iphone {
+    float: right;
+    width: 50%;
+}
+.menu__column p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.menu__column h1 {
+    font-family: leaguegothicregular, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+    text-transform: capitalize;
+}
+.menu__column h2 {
+    color: #edbfff;
+    font-family: leaguegothicregular, sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
 .article1{
     height: 340px;
     background: linear-gradient(to top, #33253a, #745083);
 }
-
+.article1__wrapper {
+    width: 960px;
+    margin: auto;
+}
+.article1__column1, .article1__column2, .article1__column3{
+    float: left;
+    width: 20%;
+    padding-left: 40px
+}
+.article1__column1 {
+    background: url(../images/wrench.png) no-repeat;
+}
+.article1__column2 {
+    background: url(../images/bubble.png) no-repeat;
+}
+.article1__column3 {
+    background: url(../images/note.png) no-repeat;
+}
+.article1__head{
+    font-family: leaguegothicregular, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.article1__text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.article1__read{
+    float: right;
+    text-decoration: none;
+    font-family: leaguegothicregular, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
 .article2 {
     height: 605px;
     background-color: white;
