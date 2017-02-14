@@ -18,7 +18,7 @@ header {
     background-image: url(../images/hd-bg.jpg)
 }
 
-.menu{
+.menu, .article1__wrapper, .article2__wrapper, .article3__wrapper, .footer__wrapper{
     margin: auto;
     width: 960px;
     overflow: hidden;
@@ -91,10 +91,7 @@ header {
     height: 340px;
     background: linear-gradient(to top, #33253a, #745083);
 }
-.article1__wrapper {
-    width: 960px;
-    margin: auto;
-}
+
 .article1__column1, .article1__column2, .article1__column3{
     float: left;
     width: 20%;
@@ -132,12 +129,15 @@ header {
 }
 .article2 {
     height: 605px;
-    background-color: white;
+    background-color: #f9f9f9;
     color: #454545;
 }
+
 .article2__column1{
     float: left;
     width: 50%;
+    background-color: white;
+    background: url(../images/editor.png) no-repeat;
 }
 .article2__column1 h1, .article2__column2 h1 {
     font-family: leaguegothicregular, sans-serif;
