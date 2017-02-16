@@ -135,7 +135,8 @@ header {
 
 .article2__column1{
     float: left;
-    width: 50%;
+    width: 35%;
+    padding-left: 70px;
     background-color: white;
     background: url(../images/editor.png) no-repeat;
 }
@@ -158,6 +159,24 @@ header {
 .article2__column2 h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+}
+.article2__update1 {
+    background: url(../images/update1.png) no-repeat;
+    padding-left: 70px;
+    height: 50px;
+    margin-top: 10px;
+}
+.article2__update2 {
+    background: url(../images/update2.png) no-repeat;
+    padding-left: 70px;
+    height: 50px;
+    margin-top: 10px;
+}
+.article2__update3 {
+    background: url(../images/update3.png) no-repeat;
+    padding-left: 70px;
+    height: 50px;
+    margin-top: 10px;
 }
 .article2__readmore{
     float: right;
