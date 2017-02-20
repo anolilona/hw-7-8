@@ -204,7 +204,61 @@ header {
     background-color: #ececec;
     color: #454545
 }
-
+.article3__column1 {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.article3__column1 h1{
+    font-family: leaguegothicregular, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.article3__column1 span{
+    color: #b9b9b9;
+}
+.article3__column1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #c5c5c5;
+    font-weight: 100;
+}
+.article3__column1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.article3__column2 {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.article3__column2 h1{
+    font-family: leaguegothicregular, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.article3__column2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.article3__column3 {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.article3__column3 h1{
+    font-family: leaguegothicregular, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.article3__column3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
 footer {
     height: 113px;
     background-image: url(../images/ft-bg.jpg);
